@@ -1,0 +1,80 @@
+2023-10-24T21:55:58.356Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-10-24T21:55:58.357Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-10-24T21:57:06.302Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkError: connection 0 to 127.0.0.1:27017 closed
+    at Socket.<anonymous> (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/mongodb/lib/core/connection/connection.js:444:9)
+    at Object.onceWrapper (node:events:629:26)
+    at Socket.emit (node:events:514:28)
+    at TCP.<anonymous> (node:net:337:12)]
+2023-10-24T21:57:06.304Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-10-24T21:58:49.295Z - error: uncaughtException: Cannot read properties of undefined (reading 'split') date=Tue Oct 24 2023 16:58:49 GMT-0500 (Central Daylight Time), pid=42725, uid=501, gid=20, cwd=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test, execPath=/usr/local/bin/node, version=v20.9.0, argv=[/usr/local/bin/node, /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/app.js], rss=46039040, heapTotal=40116224, heapUsed=38133640, external=22370819, arrayBuffers=18974030, loadavg=[16.5771484375, 9.541015625, 6.55517578125], uptime=772587, trace=[column=22, file=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js, function=parseCookie, line=888, method=null, native=false, column=33, file=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js, function=null, line=894, method=null, native=false, column=28, file=node:events, function=Socket.emit, line=514, method=emit, native=false, column=14, file=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/socket.io/lib/socket.js, function=null, line=531, method=null, native=false, column=11, file=node:internal/process/task_queues, function=process.processTicksAndRejections, line=77, method=processTicksAndRejections, native=false], stack=[TypeError: Cannot read properties of undefined (reading 'split'),     at parseCookie (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:888:22),     at Socket.<anonymous> (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:894:33),     at Socket.emit (node:events:514:28),     at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/socket.io/lib/socket.js:531:14,     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)]
+2023-10-24T22:10:06.049Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+titoTest
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:392:39
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:137:13)
+    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:125:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) 
+ Error: Caught by
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:405:56
+    at _rejected (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:864:24)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:890:30
+    at Promise.when (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:1142:31)
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:808:41)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:137:13)
+    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:125:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2023-10-24T22:10:06.073Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+titoTest]
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/metadatastorage.js:190:27
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:137:13)
+    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:125:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) 
+ Error: Caught by
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:454:56
+    at _rejected (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:864:24)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:890:30
+    at Promise.when (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:1142:31)
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:808:41)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:137:13)
+    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:125:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2023-10-24T22:10:06.079Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+titoTest]
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/metadatastorage.js:190:27
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:137:13)
+    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:125:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) 
+ Error: Caught by
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:454:56
+    at _rejected (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:864:24)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:890:30
+    at Promise.when (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:1142:31)
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:808:41)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:137:13)
+    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:125:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2023-11-19T21:02:56.851Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27018
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-11-19T21:02:56.852Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-11-19T21:05:24.131Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27018
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-11-19T21:05:24.132Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-11-19T21:07:07.023Z - error: uncaughtException: Cannot read properties of undefined (reading 'split') date=Sun Nov 19 2023 15:07:06 GMT-0600 (Central Standard Time), pid=13727, uid=501, gid=20, cwd=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test, execPath=/usr/local/bin/node, version=v20.9.0, argv=[/usr/local/bin/node, /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/app.js], rss=39194624, heapTotal=39329792, heapUsed=37712096, external=22260464, arrayBuffers=18863675, loadavg=[4.947265625, 5.21435546875, 7.2568359375], uptime=236743, trace=[column=22, file=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js, function=parseCookie, line=888, method=null, native=false, column=33, file=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js, function=null, line=894, method=null, native=false, column=28, file=node:events, function=Socket.emit, line=514, method=emit, native=false, column=14, file=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/socket.io/lib/socket.js, function=null, line=531, method=null, native=false, column=11, file=node:internal/process/task_queues, function=process.processTicksAndRejections, line=77, method=processTicksAndRejections, native=false], stack=[TypeError: Cannot read properties of undefined (reading 'split'),     at parseCookie (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:888:22),     at Socket.<anonymous> (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:894:33),     at Socket.emit (node:events:514:28),     at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/socket.io/lib/socket.js:531:14,     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)]

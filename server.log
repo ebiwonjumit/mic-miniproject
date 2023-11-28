@@ -1,0 +1,147 @@
+2023-10-24T21:55:58.161Z - info: [gme] Node version v20.9.0
+2023-10-24T21:55:58.162Z - info: [gme] Logfile [ info ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/server.log
+2023-10-24T21:55:58.162Z - info: [gme] Logfile [ error ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/server-error.log
+2023-10-24T21:55:58.174Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.66.219.244:8888
+2023-10-24T21:55:58.333Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/blob-local-storage
+2023-10-24T21:55:58.337Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/miniproject_test
+2023-10-24T21:55:58.356Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-10-24T21:55:58.357Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-10-24T21:57:05.975Z - info: [gme] Node version v20.9.0
+2023-10-24T21:57:05.977Z - info: [gme] Logfile [ info ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/server.log
+2023-10-24T21:57:05.977Z - info: [gme] Logfile [ error ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/server-error.log
+2023-10-24T21:57:05.998Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.66.219.244:8888
+2023-10-24T21:57:06.240Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/blob-local-storage
+2023-10-24T21:57:06.248Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/miniproject_test
+2023-10-24T21:57:06.302Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkError: connection 0 to 127.0.0.1:27017 closed
+    at Socket.<anonymous> (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/mongodb/lib/core/connection/connection.js:444:9)
+    at Object.onceWrapper (node:events:629:26)
+    at Socket.emit (node:events:514:28)
+    at TCP.<anonymous> (node:net:337:12)]
+2023-10-24T21:57:06.304Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-10-24T21:57:40.512Z - info: [gme] Node version v20.9.0
+2023-10-24T21:57:40.513Z - info: [gme] Logfile [ info ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/server.log
+2023-10-24T21:57:40.513Z - info: [gme] Logfile [ error ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/server-error.log
+2023-10-24T21:57:40.533Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.66.219.244:8888
+2023-10-24T21:57:40.722Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/blob-local-storage
+2023-10-24T21:57:40.727Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/miniproject_test
+2023-10-24T21:57:40.763Z - warn: [gme:server:auth:gmeauth] User "guest" was not found. We will attempt to create it automatically.
+2023-10-24T21:57:40.910Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/miniproject_test
+2023-10-24T21:57:41.368Z - info: [gme:server:standalone] Server is listening ...
+2023-10-24T22:07:26.245Z - info: [gme] Node version v20.9.0
+2023-10-24T22:07:26.245Z - info: [gme] Logfile [ info ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/server.log
+2023-10-24T22:07:26.246Z - info: [gme] Logfile [ error ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/server-error.log
+2023-10-24T22:07:26.270Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.66.219.244:8888
+2023-10-24T22:07:26.495Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/blob-local-storage
+2023-10-24T22:07:26.503Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/miniproject_test
+2023-10-24T22:07:26.647Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/miniproject_test
+2023-10-24T22:07:27.152Z - info: [gme:server:standalone] Server is listening ...
+2023-10-24T22:10:00.062Z - info: [gme] Node version v20.9.0
+2023-10-24T22:10:00.063Z - info: [gme] Logfile [ info ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/server.log
+2023-10-24T22:10:00.063Z - info: [gme] Logfile [ error ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/server-error.log
+2023-10-24T22:10:00.089Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.66.219.244:8888
+2023-10-24T22:10:00.317Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/blob-local-storage
+2023-10-24T22:10:00.323Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-10-24T22:10:00.423Z - warn: [gme:server:auth:gmeauth] User "guest" was not found. We will attempt to create it automatically.
+2023-10-24T22:10:00.740Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-10-24T22:10:01.240Z - info: [gme:server:standalone] Server is listening ...
+2023-10-24T22:10:06.046Z - warn: [gme:server:standalone:WebSocket] socket not authorized to join room guest+titoTest
+2023-10-24T22:10:06.048Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+titoTest
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:392:39
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:137:13)
+    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:125:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) 
+ Error: Caught by
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:405:56
+    at _rejected (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:864:24)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:890:30
+    at Promise.when (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:1142:31)
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:808:41)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:137:13)
+    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:125:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2023-10-24T22:10:06.072Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+titoTest]
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/metadatastorage.js:190:27
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:137:13)
+    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:125:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) 
+ Error: Caught by
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:454:56
+    at _rejected (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:864:24)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:890:30
+    at Promise.when (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:1142:31)
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:808:41)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:137:13)
+    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:125:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2023-10-24T22:10:06.078Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+titoTest]
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/metadatastorage.js:190:27
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:137:13)
+    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:125:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) 
+ Error: Caught by
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:454:56
+    at _rejected (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:864:24)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:890:30
+    at Promise.when (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:1142:31)
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:808:41)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:137:13)
+    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:125:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2023-11-19T21:02:56.530Z - info: [gme] Node version v20.9.0
+2023-11-19T21:02:56.531Z - info: [gme] Logfile [ info ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/server.log
+2023-11-19T21:02:56.531Z - info: [gme] Logfile [ error ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/server-error.log
+2023-11-19T21:02:56.556Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.212.74:8888
+2023-11-19T21:02:56.831Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/blob-local-storage
+2023-11-19T21:02:56.836Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-11-19T21:02:56.851Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27018
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-11-19T21:02:56.851Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-11-19T21:05:23.888Z - info: [gme] Node version v20.9.0
+2023-11-19T21:05:23.889Z - info: [gme] Logfile [ info ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/server.log
+2023-11-19T21:05:23.889Z - info: [gme] Logfile [ error ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/server-error.log
+2023-11-19T21:05:23.908Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.212.74:8888
+2023-11-19T21:05:24.102Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/blob-local-storage
+2023-11-19T21:05:24.107Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-11-19T21:05:24.131Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27018
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-11-19T21:05:24.132Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-11-19T21:06:07.495Z - info: [gme] Node version v20.9.0
+2023-11-19T21:06:07.496Z - info: [gme] Logfile [ info ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/server.log
+2023-11-19T21:06:07.496Z - info: [gme] Logfile [ error ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/server-error.log
+2023-11-19T21:06:07.517Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.212.74:8888
+2023-11-19T21:06:07.734Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/blob-local-storage
+2023-11-19T21:06:07.740Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-11-19T21:06:07.805Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-11-19T21:06:08.281Z - info: [gme:server:standalone] Server is listening ...
+2023-11-19T21:07:05.585Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2023-11-19T21:07:05.593Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close processing
+2023-11-19T21:19:30.315Z - info: [gme] Node version v20.9.0
+2023-11-19T21:19:30.315Z - info: [gme] Logfile [ info ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/server.log
+2023-11-19T21:19:30.316Z - info: [gme] Logfile [ error ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/server-error.log
+2023-11-19T21:19:30.345Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.212.74:8888
+2023-11-19T21:19:30.567Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/blob-local-storage
+2023-11-19T21:19:30.572Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-11-19T21:19:30.709Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-11-19T21:19:31.144Z - info: [gme:server:standalone] Server is listening ...
