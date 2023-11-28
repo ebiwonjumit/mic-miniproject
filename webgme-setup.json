@@ -1,4 +1,16 @@
 {
-  "components": {},
-  "dependencies": {}
+  "components": {
+    "visualizers": {
+      "OthelloViz": {
+        "src": "panels/OthelloViz/OthelloVizPanel",
+        "title": "OthelloViz",
+        "panel": "src/visualizers/panels/OthelloViz",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/OthelloViz"
+      }
+    }
+  },
+  "dependencies": {
+    "visualizers": {}
+  }
 }
