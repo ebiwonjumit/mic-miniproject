@@ -89,3 +89,23 @@
   name: 'MongoNetworkError'
 }]
 2023-11-28T23:10:00.064Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-05T22:08:50.408Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [MongoNetworkTimeoutError: connection 0 to 127.0.0.1:27018 timed out
+    at Socket.<anonymous> (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/mongodb/lib/core/connection/connection.js:425:7)
+    at Object.onceWrapper (node:events:628:28)
+    at Socket.emit (node:events:514:28)
+    at Socket._onTimeout (node:net:589:8)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  [Symbol(beforeHandshake)]: true
+}]
+2023-12-05T22:08:50.410Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-05T22:09:21.537Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [MongoNetworkTimeoutError: connection 0 to 127.0.0.1:27018 timed out
+    at Socket.<anonymous> (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/mongodb/lib/core/connection/connection.js:425:7)
+    at Object.onceWrapper (node:events:628:28)
+    at Socket.emit (node:events:514:28)
+    at Socket._onTimeout (node:net:589:8)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  [Symbol(beforeHandshake)]: true
+}]
+2023-12-05T22:09:21.539Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError

@@ -191,3 +191,59 @@
 2023-11-28T23:10:47.957Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
 2023-11-28T23:10:48.005Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
 2023-11-28T23:10:48.426Z - info: [gme:server:standalone] Server is listening ...
+2023-11-30T17:29:08.989Z - info: [gme] Node version v20.9.0
+2023-11-30T17:29:08.990Z - info: [gme] Logfile [ info ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/server.log
+2023-11-30T17:29:08.990Z - info: [gme] Logfile [ error ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/server-error.log
+2023-11-30T17:29:09.010Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.212.74:8888
+2023-11-30T17:29:09.201Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/blob-local-storage
+2023-11-30T17:29:09.205Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-11-30T17:29:09.652Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-11-30T17:29:10.020Z - info: [gme:server:standalone] Server is listening ...
+2023-12-05T22:08:40.047Z - info: [gme] Node version v20.9.0
+2023-12-05T22:08:40.049Z - info: [gme] Logfile [ info ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/server.log
+2023-12-05T22:08:40.049Z - info: [gme] Logfile [ error ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/server-error.log
+2023-12-05T22:08:40.077Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.212.74:8888
+2023-12-05T22:08:40.358Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/blob-local-storage
+2023-12-05T22:08:40.364Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-12-05T22:08:50.408Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [MongoNetworkTimeoutError: connection 0 to 127.0.0.1:27018 timed out
+    at Socket.<anonymous> (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/mongodb/lib/core/connection/connection.js:425:7)
+    at Object.onceWrapper (node:events:628:28)
+    at Socket.emit (node:events:514:28)
+    at Socket._onTimeout (node:net:589:8)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  [Symbol(beforeHandshake)]: true
+}]
+2023-12-05T22:08:50.410Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-05T22:09:11.272Z - info: [gme] Node version v20.9.0
+2023-12-05T22:09:11.273Z - info: [gme] Logfile [ info ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/server.log
+2023-12-05T22:09:11.273Z - info: [gme] Logfile [ error ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/server-error.log
+2023-12-05T22:09:11.292Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.212.74:8888
+2023-12-05T22:09:11.489Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/blob-local-storage
+2023-12-05T22:09:11.495Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-12-05T22:09:21.537Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [MongoNetworkTimeoutError: connection 0 to 127.0.0.1:27018 timed out
+    at Socket.<anonymous> (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/mongodb/lib/core/connection/connection.js:425:7)
+    at Object.onceWrapper (node:events:628:28)
+    at Socket.emit (node:events:514:28)
+    at Socket._onTimeout (node:net:589:8)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  [Symbol(beforeHandshake)]: true
+}]
+2023-12-05T22:09:21.539Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-05T22:26:14.176Z - info: [gme] Node version v20.9.0
+2023-12-05T22:26:14.177Z - info: [gme] Logfile [ info ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/server.log
+2023-12-05T22:26:14.178Z - info: [gme] Logfile [ error ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/server-error.log
+2023-12-05T22:26:14.206Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.212.74:8888
+2023-12-05T22:26:14.488Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/blob-local-storage
+2023-12-05T22:26:14.496Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-12-05T22:26:14.646Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-12-05T22:26:15.247Z - info: [gme:server:standalone] Server is listening ...
+2023-12-05T22:38:50.513Z - info: [gme] Node version v20.9.0
+2023-12-05T22:38:50.514Z - info: [gme] Logfile [ info ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/server.log
+2023-12-05T22:38:50.514Z - info: [gme] Logfile [ error ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/server-error.log
+2023-12-05T22:38:50.542Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.212.74:8888
+2023-12-05T22:38:50.802Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/blob-local-storage
+2023-12-05T22:38:50.809Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-12-05T22:38:50.868Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-12-05T22:38:51.327Z - info: [gme:server:standalone] Server is listening ...

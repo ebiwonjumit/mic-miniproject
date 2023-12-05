@@ -8,9 +8,15 @@
         "secondary": false,
         "widget": "src/visualizers/widgets/OthelloViz"
       }
+    },
+    "seeds": {
+      "OthelloStart": {
+        "src": "src/seeds/OthelloStart"
+      }
     }
   },
   "dependencies": {
-    "visualizers": {}
+    "visualizers": {},
+    "seeds": {}
   }
 }
