@@ -12,6 +12,9 @@
     "seeds": {
       "OthelloStart": {
         "src": "src/seeds/OthelloStart"
+      },
+      "Othello": {
+        "src": "src/seeds/Othello"
       }
     }
   },

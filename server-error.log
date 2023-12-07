@@ -109,3 +109,4 @@
   [Symbol(beforeHandshake)]: true
 }]
 2023-12-05T22:09:21.539Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-05T23:10:41.678Z - error: [gme:server:standalone:api] Error: ENOENT: no such file or directory, scandir '/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/config/../src/seeds/Othello'
