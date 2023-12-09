@@ -110,3 +110,13 @@
 }]
 2023-12-05T22:09:21.539Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
 2023-12-05T23:10:41.678Z - error: [gme:server:standalone:api] Error: ENOENT: no such file or directory, scandir '/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/config/../src/seeds/Othello'
+2023-12-09T05:34:06.961Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [mongo:27017] on first connect [Error: getaddrinfo ENOTFOUND mongo
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+  name: 'MongoNetworkError'
+}]
+2023-12-09T05:34:06.962Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-09T05:34:37.700Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27018
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-09T05:34:37.701Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError

@@ -18,6 +18,26 @@
       "othelloPlugins": {
         "src": "src/plugins/othelloPlugins",
         "test": "test/plugins/othelloPlugins"
+      },
+      "othelloAuto": {
+        "src": "src/plugins/othelloAuto",
+        "test": "test/plugins/othelloAuto"
+      },
+      "othelloUndo": {
+        "src": "src/plugins/othelloUndo",
+        "test": "test/plugins/othelloUndo"
+      },
+      "othelloCountPieces": {
+        "src": "src/plugins/othelloCountPieces",
+        "test": "test/plugins/othelloCountPieces"
+      },
+      "othelloHighlightMoves": {
+        "src": "src/plugins/othelloHighlightMoves",
+        "test": "test/plugins/othelloHighlightMoves"
+      },
+      "othelloPlayerMove": {
+        "src": "src/plugins/othelloPlayerMove",
+        "test": "test/plugins/othelloPlayerMove"
       }
     }
   },

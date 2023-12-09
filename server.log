@@ -283,3 +283,33 @@
 2023-12-05T23:16:31.236Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
 2023-12-05T23:16:31.287Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
 2023-12-05T23:16:31.686Z - info: [gme:server:standalone] Server is listening ...
+2023-12-09T05:34:06.544Z - info: [gme] Node version v20.9.0
+2023-12-09T05:34:06.545Z - info: [gme] Logfile [ info ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/server.log
+2023-12-09T05:34:06.545Z - info: [gme] Logfile [ error ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/server-error.log
+2023-12-09T05:34:06.570Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.212.74:8888
+2023-12-09T05:34:06.816Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/blob-local-storage
+2023-12-09T05:34:06.822Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://mongo:27017/mongoWEBGME
+2023-12-09T05:34:06.960Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [mongo:27017] on first connect [Error: getaddrinfo ENOTFOUND mongo
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+  name: 'MongoNetworkError'
+}]
+2023-12-09T05:34:06.962Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-09T05:34:37.601Z - info: [gme] Node version v20.9.0
+2023-12-09T05:34:37.601Z - info: [gme] Logfile [ info ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/server.log
+2023-12-09T05:34:37.601Z - info: [gme] Logfile [ error ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/server-error.log
+2023-12-09T05:34:37.610Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.212.74:8888
+2023-12-09T05:34:37.681Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/blob-local-storage
+2023-12-09T05:34:37.684Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-12-09T05:34:37.700Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27018
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-09T05:34:37.700Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-09T05:36:03.133Z - info: [gme] Node version v20.9.0
+2023-12-09T05:36:03.135Z - info: [gme] Logfile [ info ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/server.log
+2023-12-09T05:36:03.135Z - info: [gme] Logfile [ error ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/server-error.log
+2023-12-09T05:36:03.159Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.212.74:8888
+2023-12-09T05:36:03.394Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/blob-local-storage
+2023-12-09T05:36:03.400Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-12-09T05:36:03.460Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-12-09T05:36:03.976Z - info: [gme:server:standalone] Server is listening ...
