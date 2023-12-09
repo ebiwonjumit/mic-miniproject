@@ -30,6 +30,10 @@ define([
         this._initWidgetEventHandlers();
 
         this._logger.debug('ctor finished');
+
+         //TODO: this information should be gathered from the META
+         this._piece_o = '/J/Q';
+         this._piece_x = '/J/K';
     }
 
     OthelloVizControl.prototype._initWidgetEventHandlers = function () {
@@ -83,6 +87,26 @@ define([
             self._client.updateTerritory(self._territoryId, self._selfPatterns);
         }
     };
+    OthelloVizControl.prototype.playerMoves = function (player, position) {
+        console.log(player, position);
+        const {_client, _currentNodeId, _logger} = this;
+        if (typeof _currentNodeId === 'string') {
+            const context = _client.getCurrentPluginContext('PlayerMoves');
+            context.managerConfig.activeNode = _currentNodeId;
+            context.managerConfig.namespace = null;
+            context.pluginConfig = {position};
+
+            _client.runBrowserPlugin('PlayerMoves', context, (err, result)=>{
+                // console.log('export:', err, result);
+                if (err === null && result && result.success) {
+                    //TODO: - there is nothing to do as the plugin updated the model
+                } else {
+                    //TODO - make a proper way of handling this
+                    _logger.error('Failed to make move', err);
+                }
+            });
+        }
+    }
 
     // This next function retrieves the relevant node information for the widget
     OthelloVizControl.prototype._getObjectDescriptor = function (nodeId) {

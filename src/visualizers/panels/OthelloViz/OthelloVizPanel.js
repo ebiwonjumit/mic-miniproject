@@ -26,6 +26,7 @@ define([
         PanelBaseWithHeader.apply(this, [options, layoutManager]);
 
         this._client = params.client;
+        this.appId = `Othello-viz-id`;
 
         //initialize UI
         this._initialize();
@@ -41,7 +42,13 @@ define([
         var self = this;
 
         //set Widget title
-        this.setTitle('');
+        this.setTitle('Lets Play Othello');
+        this.$el.prop('id', this.appId);
+        this.$el.css({
+            width: '100%',
+            height: '100%',
+        });
+
 
         this.widget = new OthelloVizWidget(this.logger, this.$el);
 
@@ -56,6 +63,14 @@ define([
         });
 
         this.onActivate();
+    };
+
+    OthelloVizPanel.prototype.afterAppend = function afterAppend() {
+        console.log('AFTER APPEND');
+        /*if(!this.widget) {
+            this.widget = ReactToeWidget(this.appId, this.control, this);
+        }*/
+        OthelloVizWidget(this.appId, this.control, this);
     };
 
     /* OVERRIDE FROM WIDGET-WITH-HEADER */
