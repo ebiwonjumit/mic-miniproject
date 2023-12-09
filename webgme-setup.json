@@ -10,16 +10,20 @@
       }
     },
     "seeds": {
-      "OthelloStart": {
-        "src": "src/seeds/OthelloStart"
-      },
       "Othello": {
         "src": "src/seeds/Othello"
+      }
+    },
+    "plugins": {
+      "othelloPlugins": {
+        "src": "src/plugins/othelloPlugins",
+        "test": "test/plugins/othelloPlugins"
       }
     }
   },
   "dependencies": {
     "visualizers": {},
-    "seeds": {}
+    "seeds": {},
+    "plugins": {}
   }
 }
