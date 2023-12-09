@@ -12,11 +12,12 @@ Then, run `webgme start` from the project root to start . Finally, navigate to `
 For a regular deployment, you need to install the following components on top of fetching this repository:
 - [NodeJS](https://nodejs.org/en/) (LTS recommended)
 - [MongoDB](https://www.mongodb.com/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
-After all components in place, you need to install the dependencies, using `npm i` command and start your deployment 
-using the `node ./app.js` command. If you have not changed the configuration, your design studio should be accessible on 
-port 8888 of your localhost.
+After all components in place, you need to install the dependencies, using `npm i` command. After this you need to run `docker compose build` command to build the dependencies. Once that is done, you can run `docker compose up` command to get the server running.
 
+## Development
+If you want to make any changes, make sure to run `docker compose build` command once you have finished making changes.
 
 ### Seed
 There exists one seed created for this design studio named `Othello`. The defaults are also available. 

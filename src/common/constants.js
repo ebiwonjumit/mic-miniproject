@@ -1,13 +1,12 @@
 define(['./constants'], function (CONSTANTS) {
+    
     return {
-        PLAYER: {
-            O:'o',
-            X:'x'
-        },
-        PIECE: {
-            O: 'o',
-            X: 'x',
-            EMPTY: '-'
-        }
+        B :0,
+        W:1,
+        E:2,
+        P:3,
+        DEFAULT_SIZE:8,
+        classes:["black",'white','empty','placeable']
+
     }
 });
