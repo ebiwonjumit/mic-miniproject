@@ -201,7 +201,7 @@ class othelloHighlightMoves(PluginBase):
                 tiles_to_flip = [(row + direction[0], column+ direction[1])]
                 multiplier = 2
                 while(row + (direction[0]*multiplier) > 0 and row + (direction[0]*multiplier) < 8) and (column + (direction[1]*multiplier) >0 and column + (direction[1]*multiplier)<8):
-                  if board_ref[row + direction[0]*multiplier][column + (direction[1]*multiplier)]['color'] == current_move_color:
+                  if board_ref[row + direction[0]*multiplier][column + (direction[1]*multiplier)]['color'] == self.next_move_color:
                     end_position = (row+direction[0]*multiplier, column +(direction[1]*multiplier))
                     for position in tiles_to_flip:
                       self.valid_tiles_to_flip.append(position)

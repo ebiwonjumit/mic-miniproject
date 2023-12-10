@@ -15,10 +15,6 @@
       }
     },
     "plugins": {
-      "othelloPlugins": {
-        "src": "src/plugins/othelloPlugins",
-        "test": "test/plugins/othelloPlugins"
-      },
       "othelloAuto": {
         "src": "src/plugins/othelloAuto",
         "test": "test/plugins/othelloAuto"

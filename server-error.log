@@ -144,3 +144,76 @@
     at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
     at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:125:13)
     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2023-12-10T17:38:05.465Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27018
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-10T17:38:05.466Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-10T17:39:59.573Z - error: [gme:server:worker:simpleworker:pid_56571:WorkerFunctions] plugin [othelloAuto] failed with error message=Tried loading "webgme-bindings" at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
+Require stack:
+- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js
+- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js, stack=Error: Tried loading "webgme-bindings" at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
+Require stack:
+- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js
+- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2600:27
+    at Object.execCb (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1946:33)
+    at Module.check (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1133:51)
+    at Module.enable (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1426:22)
+    at Object.enable (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1807:39)
+    at req.get (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2524:33)
+    at Object.localRequire [as require] (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1678:40)
+    at requirejs (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2047:24)
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:25)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32), code=MODULE_NOT_FOUND, requireStack=[/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js, /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js], moduleName=webgme-bindings, requireModules=[webgme-bindings]
+2023-12-10T17:41:29.262Z - error: [gme:server:worker:simpleworker:pid_56826:WorkerFunctions] plugin [othelloAuto] failed with error message=Tried loading "webgme-bindings" at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
+Require stack:
+- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js
+- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js, stack=Error: Tried loading "webgme-bindings" at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
+Require stack:
+- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js
+- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2600:27
+    at Object.execCb (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1946:33)
+    at Module.check (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1133:51)
+    at Module.enable (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1426:22)
+    at Object.enable (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1807:39)
+    at req.get (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2524:33)
+    at Object.localRequire [as require] (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1678:40)
+    at requirejs (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2047:24)
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:25)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32), code=MODULE_NOT_FOUND, requireStack=[/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js, /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js], moduleName=webgme-bindings, requireModules=[webgme-bindings]
+2023-12-10T17:43:04.958Z - error: [gme:server:worker:simpleworker:pid_57069:WorkerFunctions] plugin [othelloAuto] failed with error message=Tried loading "webgme-bindings" at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
+Require stack:
+- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js
+- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js, stack=Error: Tried loading "webgme-bindings" at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
+Require stack:
+- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js
+- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2600:27
+    at Object.execCb (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1946:33)
+    at Module.check (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1133:51)
+    at Module.enable (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1426:22)
+    at Object.enable (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1807:39)
+    at req.get (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2524:33)
+    at Object.localRequire [as require] (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1678:40)
+    at requirejs (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2047:24)
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:25)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32), code=MODULE_NOT_FOUND, requireStack=[/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js, /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js], moduleName=webgme-bindings, requireModules=[webgme-bindings]
+2023-12-10T17:46:27.711Z - error: [gme:server:worker:simpleworker:pid_57260:WorkerFunctions] plugin [othelloAuto] failed with error message=Tried loading "webgme-bindings" at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
+Require stack:
+- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js
+- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js, stack=Error: Tried loading "webgme-bindings" at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
+Require stack:
+- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js
+- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2600:27
+    at Object.execCb (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1946:33)
+    at Module.check (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1133:51)
+    at Module.enable (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1426:22)
+    at Object.enable (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1807:39)
+    at req.get (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2524:33)
+    at Object.localRequire [as require] (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1678:40)
+    at requirejs (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2047:24)
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:25)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32), code=MODULE_NOT_FOUND, requireStack=[/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js, /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js], moduleName=webgme-bindings, requireModules=[webgme-bindings]
