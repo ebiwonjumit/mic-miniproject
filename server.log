@@ -287,3 +287,30 @@ Require stack:
     at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
     at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
     at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+2023-12-11T05:41:39.291Z - info: [gme] Node version v20.9.0
+2023-12-11T05:41:39.292Z - info: [gme] Logfile [ info ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/server.log
+2023-12-11T05:41:39.292Z - info: [gme] Logfile [ error ] : /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/server-error.log
+2023-12-11T05:41:39.313Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://10.76.212.74:8888
+2023-12-11T05:41:39.533Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/blob-local-storage
+2023-12-11T05:41:39.540Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-12-11T05:41:39.711Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27018/mongoWEBGME
+2023-12-11T05:41:40.076Z - info: [gme:server:standalone] Server is listening ...
+2023-12-11T05:41:44.018Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+othelloGame]
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/storage/safestorage.js:560:27
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:125:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) 
+ Error: Caught by
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/storage/websocket.js:436:56
+    at _rejected (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:864:24)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:890:30
+    at Promise.when (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:1142:31)
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:808:41)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:125:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)

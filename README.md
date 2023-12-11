@@ -1,5 +1,7 @@
 # mic-othello
-This is a design
+
+## Description
+This is a WebGME Design Studio project. It allows you to play Othello. WebGME is a generic web-based modeling environment that was created by ISIS at Vanderbilt.
 
 
 ## Installation
@@ -34,80 +36,15 @@ All plugins were written in Python.
 - othelloHighlightMoves: Will return a list of all valid moves
 - othelloUndo: The game will undo the current move
 
-Whenever a new game state is created, the game will ensure that the necessary pieces are flipped to their proper color.
+Whenever a new game state is created, the game will ensure that the necessary pieces are flipped to their proper color. 
+
+To play the game, please use the plugins in the Game. Shown below:
 
 
 
-Othello_Game_Design_Studio
-CS 6388 Model-Integrated Computing final project.
+and the plugin in the Tile:
 
-Introduction
-Othello Game Studio is a comprehensive design studio for creating and playing the Othello (Reversi) game. This studio includes a visualizer, game logic plugins, and a meta-model for an immersive gaming experience.
 
-Installation Instructions
-Prerequisites
-Node.js (version 18 LTS or higher)
-Python3 (version 3.11.0 or higher, if applicable)
-Steps
-Open the terminal and clone the repository
-git clone https://github.com/Pingumaniac/Othello_Game_Design_Studio.git
-cd [repository directory/myminiproject]
-Install dependencies (use Powershell for Windows, Terminal for macOS)
-npm install
-npm install webgme
-npm install zeromq
-pip3 install zmq
-pip3 install webgme-bindings
-npm install webgme-bindings
-Install these commands inside ./myminiproject/node_modules/webgme-bindings/python/webgme-bindings
 
-webgme import viz ICore webgme-icore
-webgme import plugin PyCoreExecutor webgme-icore
-webgme import router BindingsDocs webgme-bindings
-pip3 install -e .
-Download/Install Docker Desktop from the following url: https://www.docker.com/products/docker-desktop/
-Download/Install the latest version of mongo in Docker Image.
-Create an image of mongo. For optional settings, please set the Host path as
-[repository directory]/DB
-and set the Container path as
 
-/data/db
-The port number should be 27018 not 27017 (which is default). 6. From the terminal, enter the following command.
 
-node app.js
-Open your browser and navigate to [http://localhost:8888].
-Implementation Description
-Structure
-src/: Contains the source code for the studio.
-plugins/: Game logic plugins (Highlight valid tiles, Counting pieces, Flipping, Undo, Auto).
-visualizers/: Visualization components for the game.
-meta/: Meta-model for the game.
-Technologies Used
-React.js for front-end visualization.
-Node.js for back-end services.
-WebGME for model integration.
-Python for creating the plugins.
-Usage Description
-Playing the Game
-Start a New Game:
-Click on 'New Game' to initialize a new Othello board.
-Making Moves:
-Click on a valid tile to place your piece.
-The valid tiles are highlighted based on the current game state.
-Game Progression:
-The game automatically counts and displays the number of pieces for each color.
-After each move, the board updates to reflect the new state.
-Undo Functionality:
-Click 'Undo' to revert to the previous state.
-Auto Play (Optional):
-Click 'Auto' to let the computer make a move.
-End of the Game
-The game concludes when no valid moves are available.
-The final score is displayed, indicating the winner.
-Repository Contents
-README.md: This documentation file.
-src/: Source code directory.
-Deployment
-Follow the installation instructions to deploy the Othello Game Studio on your local machine. Ensure all dependencies are installed for a smooth setup.
-You can create a new seed by typing the following command on terminal:
-webgme new seed [seed_name]
