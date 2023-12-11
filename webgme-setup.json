@@ -7,6 +7,13 @@
         "panel": "src/visualizers/panels/Othello",
         "secondary": false,
         "widget": "src/visualizers/widgets/Othello"
+      },
+      "Play": {
+        "src": "panels/Play/PlayPanel",
+        "title": "Play",
+        "panel": "src/visualizers/panels/Play",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/Play"
       }
     },
     "seeds": {

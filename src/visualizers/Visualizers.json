@@ -4,5 +4,11 @@
     "title": "Othello",
     "panel": "panels/Othello/OthelloPanel",
     "DEBUG_ONLY": false
+  },
+  {
+    "id": "Play",
+    "title": "Play",
+    "panel": "panels/Play/PlayPanel",
+    "DEBUG_ONLY": false
   }
 ]

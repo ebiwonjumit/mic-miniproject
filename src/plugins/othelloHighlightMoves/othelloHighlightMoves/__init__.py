@@ -174,16 +174,12 @@ class othelloHighlightMoves(PluginBase):
     directions = [(0,0),(0,1),(1,0),(1,1),(1,0),(0,1),(-1,-1),(-1,0),(0,-1),(-1,1),(1,-1)]
     logger = self.logger
     core = self.core
-    current_node = self.active_node
-    board = core.get_parent(current_node)
-    game_state = core.get_parent(board)
     
     current_move_path = core.get_pointer_path(self.current_game_state,"currentMove")
     current_move = core.load_by_path(self.root_node,current_move_path)
     current_move_color = core.get_attribute(current_move,'color')
     self.next_move_color = possible_next_moves[current_move_color]
-    state_path = self.current_game_state["nodePath"]
-    
+    state_path = self.current_game_state["nodePath"] 
     
     for state in self.states:
       if state_path == state["path"]:
@@ -235,7 +231,7 @@ class othelloHighlightMoves(PluginBase):
               valid_tiles_to_play.append([tile_row,tile_column])
               valid_tile_nodes.append(tile_node)
               valid_tiles_to_flip.append(tiles_to_flip)
-    #logger.info(valid_tiles_to_play)                                   
+    logger.info(valid_tiles_to_play)                                   
     return valid_tile_nodes,valid_tiles_to_flip
     
     
@@ -282,4 +278,3 @@ class othelloHighlightMoves(PluginBase):
 
       
    
-

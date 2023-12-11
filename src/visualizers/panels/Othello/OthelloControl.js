@@ -22,12 +22,12 @@ define([
         this._client = options.client;
 
         // Initialize core collections and variables
-        this._widget = options.widget;
+        
 
         this._currentNodeId = null;
         this._currentNodeParentId = undefined;
 
-        this._initWidgetEventHandlers();
+        // this._initWidgetEventHandlers();
 
         this._logger.debug('ctor finished');
     }
@@ -223,22 +223,22 @@ define([
             title: 'Go to parent',
             icon: 'glyphicon glyphicon-circle-arrow-up',
             clickFn: function (/*data*/) {
-                WebGMEGlobal.State.registerActiveObject(self._currentNodeParentId);
+                WebGMEGlobal.State.registerActiveVisualizer('Othello');
             }
         });
         this._toolbarItems.push(this.$btnModelHierarchyUp);
         this.$btnModelHierarchyUp.hide();
 
-        /************** Checkbox example *******************/
+        // /************** Checkbox example *******************/
 
-        this.$cbShowConnection = toolBar.addCheckBox({
-            title: 'toggle checkbox',
-            icon: 'gme icon-gme_diagonal-arrow',
-            checkChangedFn: function (data, checked) {
-                self._logger.debug('Checkbox has been clicked!');
-            }
-        });
-        this._toolbarItems.push(this.$cbShowConnection);
+        // this.$cbShowConnection = toolBar.addCheckBox({
+        //     title: 'toggle checkbox',
+        //     icon: 'gme icon-gme_diagonal-arrow',
+        //     checkChangedFn: function (data, checked) {
+        //         self._logger.debug('Checkbox has been clicked!');
+        //     }
+        // });
+        // this._toolbarItems.push(this.$cbShowConnection);
 
         this._toolbarInitialized = true;
     };

@@ -41,7 +41,7 @@ define([
         var self = this;
 
         //set Widget title
-        this.setTitle('Othello Game');
+        // this.setTitle('Othello Game');
         this.$el.prop('id', this.appId);
         this.$el.css({
             width: '100%',
@@ -57,8 +57,8 @@ define([
         this.control = new OthelloControl({
             logger: this.logger,
             client: this._client,
-            widget: this.widget,
         });
+        this.widget = null;
 
         this.onActivate();
     };

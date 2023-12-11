@@ -1,131 +1,4 @@
-2023-10-24T21:55:58.356Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
-  name: 'MongoNetworkError'
-}]
-2023-10-24T21:55:58.357Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
-2023-10-24T21:57:06.302Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkError: connection 0 to 127.0.0.1:27017 closed
-    at Socket.<anonymous> (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/mongodb/lib/core/connection/connection.js:444:9)
-    at Object.onceWrapper (node:events:629:26)
-    at Socket.emit (node:events:514:28)
-    at TCP.<anonymous> (node:net:337:12)]
-2023-10-24T21:57:06.304Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
-2023-10-24T21:58:49.295Z - error: uncaughtException: Cannot read properties of undefined (reading 'split') date=Tue Oct 24 2023 16:58:49 GMT-0500 (Central Daylight Time), pid=42725, uid=501, gid=20, cwd=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test, execPath=/usr/local/bin/node, version=v20.9.0, argv=[/usr/local/bin/node, /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/app.js], rss=46039040, heapTotal=40116224, heapUsed=38133640, external=22370819, arrayBuffers=18974030, loadavg=[16.5771484375, 9.541015625, 6.55517578125], uptime=772587, trace=[column=22, file=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js, function=parseCookie, line=888, method=null, native=false, column=33, file=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js, function=null, line=894, method=null, native=false, column=28, file=node:events, function=Socket.emit, line=514, method=emit, native=false, column=14, file=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/socket.io/lib/socket.js, function=null, line=531, method=null, native=false, column=11, file=node:internal/process/task_queues, function=process.processTicksAndRejections, line=77, method=processTicksAndRejections, native=false], stack=[TypeError: Cannot read properties of undefined (reading 'split'),     at parseCookie (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:888:22),     at Socket.<anonymous> (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:894:33),     at Socket.emit (node:events:514:28),     at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/socket.io/lib/socket.js:531:14,     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)]
-2023-10-24T22:10:06.049Z - error: [gme:server:standalone:WebSocket] Error: No read access for guest+titoTest
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:392:39
-    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:854:54)
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:883:30
-    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:816:13)
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:624:44
-    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:137:13)
-    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:125:13)
-    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) 
- Error: Caught by
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:405:56
-    at _rejected (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:864:24)
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:890:30
-    at Promise.when (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:1142:31)
-    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:808:41)
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:624:44
-    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:137:13)
-    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:125:13)
-    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
-2023-10-24T22:10:06.073Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+titoTest]
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/metadatastorage.js:190:27
-    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:854:54)
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:883:30
-    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:816:13)
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:624:44
-    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:137:13)
-    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:125:13)
-    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) 
- Error: Caught by
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:454:56
-    at _rejected (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:864:24)
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:890:30
-    at Promise.when (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:1142:31)
-    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:808:41)
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:624:44
-    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:137:13)
-    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:125:13)
-    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
-2023-10-24T22:10:06.079Z - error: [gme:server:standalone:WebSocket] Error: no such project [guest+titoTest]
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/metadatastorage.js:190:27
-    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:854:54)
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:883:30
-    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:816:13)
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:624:44
-    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:137:13)
-    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:125:13)
-    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) 
- Error: Caught by
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:454:56
-    at _rejected (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:864:24)
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:890:30
-    at Promise.when (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:1142:31)
-    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:808:41)
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:624:44
-    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:137:13)
-    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/q/q.js:125:13)
-    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
-2023-11-19T21:02:56.851Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27018
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
-  name: 'MongoNetworkError'
-}]
-2023-11-19T21:02:56.852Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
-2023-11-19T21:05:24.131Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27018
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
-  name: 'MongoNetworkError'
-}]
-2023-11-19T21:05:24.132Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
-2023-11-19T21:07:07.023Z - error: uncaughtException: Cannot read properties of undefined (reading 'split') date=Sun Nov 19 2023 15:07:06 GMT-0600 (Central Standard Time), pid=13727, uid=501, gid=20, cwd=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test, execPath=/usr/local/bin/node, version=v20.9.0, argv=[/usr/local/bin/node, /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/app.js], rss=39194624, heapTotal=39329792, heapUsed=37712096, external=22260464, arrayBuffers=18863675, loadavg=[4.947265625, 5.21435546875, 7.2568359375], uptime=236743, trace=[column=22, file=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js, function=parseCookie, line=888, method=null, native=false, column=33, file=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js, function=null, line=894, method=null, native=false, column=28, file=node:events, function=Socket.emit, line=514, method=emit, native=false, column=14, file=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/socket.io/lib/socket.js, function=null, line=531, method=null, native=false, column=11, file=node:internal/process/task_queues, function=process.processTicksAndRejections, line=77, method=processTicksAndRejections, native=false], stack=[TypeError: Cannot read properties of undefined (reading 'split'),     at parseCookie (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:888:22),     at Socket.<anonymous> (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/webgme-engine/src/server/storage/websocket.js:894:33),     at Socket.emit (node:events:514:28),     at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/miniproject-test/node_modules/socket.io/lib/socket.js:531:14,     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)]
-2023-11-28T22:20:11.924Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27018
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
-  name: 'MongoNetworkError'
-}]
-2023-11-28T22:20:11.925Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
-2023-11-28T22:24:16.086Z - error: uncaughtException: Cannot read properties of undefined (reading 'split') date=Tue Nov 28 2023 16:24:16 GMT-0600 (Central Standard Time), pid=3519, uid=501, gid=20, cwd=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject, execPath=/usr/local/bin/node, version=v20.9.0, argv=[/usr/local/bin/node, /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/app.js], rss=66551808, heapTotal=40640512, heapUsed=38866192, external=22252168, arrayBuffers=18855379, loadavg=[1.94677734375, 2.8447265625, 3.0595703125], uptime=15746, trace=[column=22, file=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/storage/websocket.js, function=parseCookie, line=888, method=null, native=false, column=33, file=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/storage/websocket.js, function=null, line=894, method=null, native=false, column=28, file=node:events, function=Socket.emit, line=514, method=emit, native=false, column=14, file=/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/socket.io/lib/socket.js, function=null, line=531, method=null, native=false, column=11, file=node:internal/process/task_queues, function=process.processTicksAndRejections, line=77, method=processTicksAndRejections, native=false], stack=[TypeError: Cannot read properties of undefined (reading 'split'),     at parseCookie (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/storage/websocket.js:888:22),     at Socket.<anonymous> (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/storage/websocket.js:894:33),     at Socket.emit (node:events:514:28),     at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/socket.io/lib/socket.js:531:14,     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)]
-2023-11-28T23:10:00.063Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27018
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
-  name: 'MongoNetworkError'
-}]
-2023-11-28T23:10:00.064Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
-2023-12-05T22:08:50.408Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [MongoNetworkTimeoutError: connection 0 to 127.0.0.1:27018 timed out
-    at Socket.<anonymous> (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/mongodb/lib/core/connection/connection.js:425:7)
-    at Object.onceWrapper (node:events:628:28)
-    at Socket.emit (node:events:514:28)
-    at Socket._onTimeout (node:net:589:8)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7) {
-  [Symbol(beforeHandshake)]: true
-}]
-2023-12-05T22:08:50.410Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
-2023-12-05T22:09:21.537Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [MongoNetworkTimeoutError: connection 0 to 127.0.0.1:27018 timed out
-    at Socket.<anonymous> (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/mongodb/lib/core/connection/connection.js:425:7)
-    at Object.onceWrapper (node:events:628:28)
-    at Socket.emit (node:events:514:28)
-    at Socket._onTimeout (node:net:589:8)
-    at listOnTimeout (node:internal/timers:573:17)
-    at process.processTimers (node:internal/timers:514:7) {
-  [Symbol(beforeHandshake)]: true
-}]
-2023-12-05T22:09:21.539Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
-2023-12-05T23:10:41.678Z - error: [gme:server:standalone:api] Error: ENOENT: no such file or directory, scandir '/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/config/../src/seeds/Othello'
-2023-12-09T05:34:06.961Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [mongo:27017] on first connect [Error: getaddrinfo ENOTFOUND mongo
-    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
-  name: 'MongoNetworkError'
-}]
-2023-12-09T05:34:06.962Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
-2023-12-09T05:34:37.700Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27018
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
-  name: 'MongoNetworkError'
-}]
-2023-12-09T05:34:37.701Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
-2023-12-09T07:08:13.394Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [mongo:27017] on first connect [Error: getaddrinfo ENOTFOUND mongo
-    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
-  name: 'MongoNetworkError'
-}]
-2023-12-09T07:08:13.396Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
-2023-12-09T07:08:31.352Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+othelloStart]
+2023-12-11T03:33:08.978Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+othelloGame]
     at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/storage/safestorage.js:560:27
     at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
     at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
@@ -144,12 +17,26 @@
     at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
     at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:125:13)
     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
-2023-12-10T17:38:05.465Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27018
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
-  name: 'MongoNetworkError'
-}]
-2023-12-10T17:38:05.466Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
-2023-12-10T17:39:59.573Z - error: [gme:server:worker:simpleworker:pid_56571:WorkerFunctions] plugin [othelloAuto] failed with error message=Tried loading "webgme-bindings" at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
+2023-12-11T04:28:12.973Z - error: [gme:server:standalone:WebSocket] Error: Not authorized to read project [guest+test]
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/storage/safestorage.js:560:27
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:125:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) 
+ Error: Caught by
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/storage/websocket.js:436:56
+    at _rejected (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:864:24)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:890:30
+    at Promise.when (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:1142:31)
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:808:41)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+    at flush (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:125:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2023-12-11T04:30:27.189Z - error: [gme:server:worker:simpleworker:pid_70126:WorkerFunctions] plugin [othelloAuto] failed with error message=Tried loading "webgme-bindings" at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
 Require stack:
 - /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js
 - /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js, stack=Error: Tried loading "webgme-bindings" at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
@@ -166,54 +53,190 @@ Require stack:
     at requirejs (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2047:24)
     at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:25)
     at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32), code=MODULE_NOT_FOUND, requireStack=[/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js, /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js], moduleName=webgme-bindings, requireModules=[webgme-bindings]
-2023-12-10T17:41:29.262Z - error: [gme:server:worker:simpleworker:pid_56826:WorkerFunctions] plugin [othelloAuto] failed with error message=Tried loading "webgme-bindings" at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
-Require stack:
-- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js
-- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js, stack=Error: Tried loading "webgme-bindings" at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
-Require stack:
-- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js
-- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2600:27
-    at Object.execCb (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1946:33)
-    at Module.check (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1133:51)
-    at Module.enable (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1426:22)
-    at Object.enable (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1807:39)
-    at req.get (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2524:33)
-    at Object.localRequire [as require] (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1678:40)
-    at requirejs (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2047:24)
-    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:25)
-    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32), code=MODULE_NOT_FOUND, requireStack=[/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js, /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js], moduleName=webgme-bindings, requireModules=[webgme-bindings]
-2023-12-10T17:43:04.958Z - error: [gme:server:worker:simpleworker:pid_57069:WorkerFunctions] plugin [othelloAuto] failed with error message=Tried loading "webgme-bindings" at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
-Require stack:
-- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js
-- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js, stack=Error: Tried loading "webgme-bindings" at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
-Require stack:
-- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js
-- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2600:27
-    at Object.execCb (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1946:33)
-    at Module.check (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1133:51)
-    at Module.enable (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1426:22)
-    at Object.enable (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1807:39)
-    at req.get (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2524:33)
-    at Object.localRequire [as require] (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1678:40)
-    at requirejs (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2047:24)
-    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:25)
-    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32), code=MODULE_NOT_FOUND, requireStack=[/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js, /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js], moduleName=webgme-bindings, requireModules=[webgme-bindings]
-2023-12-10T17:46:27.711Z - error: [gme:server:worker:simpleworker:pid_57260:WorkerFunctions] plugin [othelloAuto] failed with error message=Tried loading "webgme-bindings" at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
-Require stack:
-- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js
-- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js, stack=Error: Tried loading "webgme-bindings" at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/webgme-bindings.js then tried node's require("webgme-bindings") and it failed with error: Error: Cannot find module 'webgme-bindings'
-Require stack:
-- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js
-- /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js
-    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2600:27
-    at Object.execCb (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1946:33)
-    at Module.check (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1133:51)
-    at Module.enable (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1426:22)
-    at Object.enable (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1807:39)
-    at req.get (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2524:33)
-    at Object.localRequire [as require] (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:1678:40)
-    at requirejs (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/requirejs/bin/r.js:2047:24)
-    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:25)
-    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32), code=MODULE_NOT_FOUND, requireStack=[/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/index.js, /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/simpleworker.js], moduleName=webgme-bindings, requireModules=[webgme-bindings]
+2023-12-11T04:30:36.821Z - error: [gme:server:worker:simpleworker:pid_70126:WorkerFunctions] plugin [othelloAuto] failed with error message=Cannot read properties of undefined (reading 'CoreZMQ'), stack=TypeError: Cannot read properties of undefined (reading 'CoreZMQ')
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:51)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32)
+    at new Promise (<anonymous>)
+    at PluginManagerBase.runPluginMain (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:313:36)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/workerrequests.js:299:31
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+2023-12-11T04:30:38.799Z - error: [gme:server:worker:simpleworker:pid_70126:WorkerFunctions] plugin [othelloAuto] failed with error message=Cannot read properties of undefined (reading 'CoreZMQ'), stack=TypeError: Cannot read properties of undefined (reading 'CoreZMQ')
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:51)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32)
+    at new Promise (<anonymous>)
+    at PluginManagerBase.runPluginMain (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:313:36)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/workerrequests.js:299:31
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+2023-12-11T04:30:44.030Z - error: [gme:server:worker:simpleworker:pid_70126:WorkerFunctions] plugin [othelloAuto] failed with error message=Cannot read properties of undefined (reading 'CoreZMQ'), stack=TypeError: Cannot read properties of undefined (reading 'CoreZMQ')
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:51)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32)
+    at new Promise (<anonymous>)
+    at PluginManagerBase.runPluginMain (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:313:36)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/workerrequests.js:299:31
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+2023-12-11T04:30:44.544Z - error: [gme:server:worker:simpleworker:pid_70126:WorkerFunctions] plugin [othelloAuto] failed with error message=Cannot read properties of undefined (reading 'CoreZMQ'), stack=TypeError: Cannot read properties of undefined (reading 'CoreZMQ')
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:51)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32)
+    at new Promise (<anonymous>)
+    at PluginManagerBase.runPluginMain (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:313:36)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/workerrequests.js:299:31
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+2023-12-11T04:30:44.971Z - error: [gme:server:worker:simpleworker:pid_70126:WorkerFunctions] plugin [othelloAuto] failed with error message=Cannot read properties of undefined (reading 'CoreZMQ'), stack=TypeError: Cannot read properties of undefined (reading 'CoreZMQ')
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:51)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32)
+    at new Promise (<anonymous>)
+    at PluginManagerBase.runPluginMain (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:313:36)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/workerrequests.js:299:31
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+2023-12-11T04:30:51.471Z - error: [gme:server:worker:simpleworker:pid_70126:WorkerFunctions] plugin [othelloAuto] failed with error message=Cannot read properties of undefined (reading 'CoreZMQ'), stack=TypeError: Cannot read properties of undefined (reading 'CoreZMQ')
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:51)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32)
+    at new Promise (<anonymous>)
+    at PluginManagerBase.runPluginMain (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:313:36)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/workerrequests.js:299:31
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+2023-12-11T04:30:51.894Z - error: [gme:server:worker:simpleworker:pid_70126:WorkerFunctions] plugin [othelloAuto] failed with error message=Cannot read properties of undefined (reading 'CoreZMQ'), stack=TypeError: Cannot read properties of undefined (reading 'CoreZMQ')
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:51)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32)
+    at new Promise (<anonymous>)
+    at PluginManagerBase.runPluginMain (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:313:36)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/workerrequests.js:299:31
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+2023-12-11T04:31:18.226Z - error: [gme:server:worker:simpleworker:pid_70126:WorkerFunctions] plugin [othelloAuto] failed with error message=Cannot read properties of undefined (reading 'CoreZMQ'), stack=TypeError: Cannot read properties of undefined (reading 'CoreZMQ')
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:51)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32)
+    at new Promise (<anonymous>)
+    at PluginManagerBase.runPluginMain (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:313:36)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/workerrequests.js:299:31
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+2023-12-11T04:32:02.526Z - error: [gme:server:worker:simpleworker:pid_70126:WorkerFunctions] plugin [othelloAuto] failed with error message=Cannot read properties of undefined (reading 'CoreZMQ'), stack=TypeError: Cannot read properties of undefined (reading 'CoreZMQ')
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:51)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32)
+    at new Promise (<anonymous>)
+    at PluginManagerBase.runPluginMain (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:313:36)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/workerrequests.js:299:31
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+2023-12-11T04:32:03.552Z - error: [gme:server:worker:simpleworker:pid_70126:WorkerFunctions] plugin [othelloAuto] failed with error message=Cannot read properties of undefined (reading 'CoreZMQ'), stack=TypeError: Cannot read properties of undefined (reading 'CoreZMQ')
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:51)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32)
+    at new Promise (<anonymous>)
+    at PluginManagerBase.runPluginMain (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:313:36)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/workerrequests.js:299:31
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+2023-12-11T04:32:06.671Z - error: [gme:server:worker:simpleworker:pid_70126:WorkerFunctions] plugin [othelloAuto] failed with error message=Cannot read properties of undefined (reading 'CoreZMQ'), stack=TypeError: Cannot read properties of undefined (reading 'CoreZMQ')
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:51)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32)
+    at new Promise (<anonymous>)
+    at PluginManagerBase.runPluginMain (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:313:36)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/workerrequests.js:299:31
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+2023-12-11T04:32:08.237Z - error: [gme:server:worker:simpleworker:pid_70126:WorkerFunctions] plugin [othelloAuto] failed with error message=Cannot read properties of undefined (reading 'CoreZMQ'), stack=TypeError: Cannot read properties of undefined (reading 'CoreZMQ')
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:51)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32)
+    at new Promise (<anonymous>)
+    at PluginManagerBase.runPluginMain (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:313:36)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/workerrequests.js:299:31
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+2023-12-11T04:32:08.450Z - error: [gme:server:worker:simpleworker:pid_70126:WorkerFunctions] plugin [othelloAuto] failed with error message=Cannot read properties of undefined (reading 'CoreZMQ'), stack=TypeError: Cannot read properties of undefined (reading 'CoreZMQ')
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:51)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32)
+    at new Promise (<anonymous>)
+    at PluginManagerBase.runPluginMain (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:313:36)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/workerrequests.js:299:31
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+2023-12-11T04:32:56.241Z - error: [gme:server:worker:simpleworker:pid_70126:WorkerFunctions] plugin [othelloAuto] failed with error message=Cannot read properties of undefined (reading 'CoreZMQ'), stack=TypeError: Cannot read properties of undefined (reading 'CoreZMQ')
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:51)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32)
+    at new Promise (<anonymous>)
+    at PluginManagerBase.runPluginMain (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:313:36)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/workerrequests.js:299:31
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+2023-12-11T04:35:59.801Z - error: [gme:server:worker:simpleworker:pid_70126:WorkerFunctions] plugin [othelloAuto] failed with error message=Cannot read properties of undefined (reading 'CoreZMQ'), stack=TypeError: Cannot read properties of undefined (reading 'CoreZMQ')
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:51)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32)
+    at new Promise (<anonymous>)
+    at PluginManagerBase.runPluginMain (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:313:36)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/workerrequests.js:299:31
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+2023-12-11T04:36:14.750Z - error: [gme:server:worker:simpleworker:pid_70126:WorkerFunctions] plugin [othelloAuto] failed with error message=Cannot read properties of undefined (reading 'CoreZMQ'), stack=TypeError: Cannot read properties of undefined (reading 'CoreZMQ')
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:51)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32)
+    at new Promise (<anonymous>)
+    at PluginManagerBase.runPluginMain (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:313:36)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/workerrequests.js:299:31
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
+2023-12-11T04:36:22.708Z - error: [gme:server:worker:simpleworker:pid_70126:WorkerFunctions] plugin [othelloAuto] failed with error message=Cannot read properties of undefined (reading 'CoreZMQ'), stack=TypeError: Cannot read properties of undefined (reading 'CoreZMQ')
+    at othelloAuto.main (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/src/plugins/othelloAuto/othelloAuto.js:65:51)
+    at result (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:314:32)
+    at new Promise (<anonymous>)
+    at PluginManagerBase.runPluginMain (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/plugin/managerbase.js:313:36)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/webgme-engine/src/server/worker/workerrequests.js:299:31
+    at _fulfilled (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:854:54)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:883:30
+    at Promise.promise.promiseDispatch (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:816:13)
+    at /Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:624:44
+    at runSingle (/Users/titoebiwonjumi/Documents/Vanderbilt Courses/Fall 2023/ModelIntegratedComputing/mic-miniproject/node_modules/q/q.js:137:13)
