@@ -39,10 +39,11 @@ All plugins were written in Python.
 Whenever a new game state is created, the game will ensure that the necessary pieces are flipped to their proper color. 
 
 To play the game, please use the plugins in the Game. Shown below:
-
+![alt text](https://github.com/ebiwonjumit/mic-miniproject/blob/main/images/gamePlugins.png)
 
 
 and the plugin in the Tile:
+![alt text](https://github.com/ebiwonjumit/mic-miniproject/blob/main/images/tilePlugins.png)
 
 
 
