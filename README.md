@@ -46,6 +46,14 @@ and the plugin in the Tile:
 ![alt text](https://github.com/ebiwonjumit/mic-miniproject/blob/main/images/tilePlugins.png)
 
 
+### Visualization
+I tried to create a visualization for the Othello game within the WebGME environment. All I was able to do was create buttons for my plugins within the Play Visualizer. Shown Below:
+![alt text]()
+
+In the future, I plan to create a full visualization for the Othello game in React.
+
+
+
 
 
 
